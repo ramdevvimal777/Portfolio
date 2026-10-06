@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="common.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Contact Me</h1>
+        </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        <main>
+            <section>
+                <h2>Get in Touch</h2>
+                <p> 
+                    If you would like to discuss projects, networking,
+                    cybersecurity, or collaboration opportunities,
+                    feel free to contact me using the form below.
+                </p>
+                <form action="mailto:ramdev.vimal@ontariotechu.net?subject=Contact through portfolio"
+                method="post" enctype="text/plain" name="contact_portfolio">
+                <p> 
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your Full name" size="30" required>
+                </p>
+                <p>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" size="40" required>
+                </p>
+                <p>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your ten-digit phone number" size="20" required>
+                </p>
+                <p>
+                    <label for="comments">Comments:</label><br>
+                    <textarea type="tel" id="comments" name="phone" cols="60" rows="6" placeholder="If you have any comments or feedbacks ,please leave it here." size="15" required></textarea>
+                </p>
+                <input type="submit" Value="Send Message">
+                <input type="reset" Value="Clear form">
+                </form>
+        
+            </section>
+        </main>
+    </div>
+</body>
+<footer>
+    <p>Email:ramdevvimal3@gmail.com</p>
+    <p>&copy; 2026 | Ramdev Vimal. All Rights Reserved</p>
+</footer>
+</html>
