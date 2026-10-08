@@ -1,0 +1,73 @@
+/*-----Color Pallete----*/
+
+/*Navy            :#1B263B
+Deep Blue       :#2B5876
+Purple          :#4E4376
+Light Blue-Grey : #E9EEF2
+White           : #FFFFFF*/
+
+/*#AAB2BD*/
+/*-------Body-----*/
+    
+/*Wrapper*/ 
+
+#wrapper {
+    width: 100%;
+}
+/*Header*/
+header {
+    padding: 15px;
+}
+header h1{
+    font-size: 1.8em;
+}
+/*Navigation*/
+nav a {
+    display:block;
+    padding: 15px;
+}
+
+/* Main Content */
+main {
+    padding: 10px;
+ }
+/*Sections*/
+section{
+    padding: 15px;
+    margin-bottom: 15px;
+
+}
+/* Articles */
+article{
+    margin-bottom: 15px;
+    padding: 15px;
+
+}
+/* About page IMG*/
+section img {
+    max-width: 100%;
+    height: auto;
+}
+/* Video */
+video {
+    max-width: 100%;
+    height: auto;
+
+}
+/* Contact Form */
+input,textarea{
+    width: 100%;
+}
+input[type="submit"],
+input[type="reset"] {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/*Footer*/
+
+footer{
+    width: 100%;
+}
+
+
