@@ -54,7 +54,7 @@ nav li{
 }
 nav a {
     display:block;
-    padding: 15px 20px;
+    padding: 15px 20px;/*Top n bottom 15px and left right 20px*/
     text-decoration: none;
     color:#FFFFFF;
     font-weight: bold;
@@ -76,7 +76,7 @@ main h3 {
     color: #4e4376;
 }
 p{
-    line-height: 1.6;
+    line-height: 1.6;/*1.6 times the current font size*/
 }
 .profile-photo{
     width: 250px;
