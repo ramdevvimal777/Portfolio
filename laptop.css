@@ -6,15 +6,12 @@ Purple          :#4E4376
 Light Blue-Grey : #E9EEF2
 White           : #FFFFFF*/
 
-/*#AAB2BD*/
+/*Additional Color used:#AAB2BD*/
 
     
 /*Wrapper*/ 
 #wrapper {
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-
 }
 /*Header*/
 header {
@@ -25,9 +22,6 @@ header h1{
 }
 /*Navigation*/
 
-nav li{
-    display: inline-block;
-}
 nav a {
     display:block;
     padding: 16px 25px;
@@ -59,24 +53,19 @@ article{
 /* About page IMG*/
 section img {
     width: 300px;
-    height: auto;
 }
 /* Video */
 video {
-    max-width: 100%;
-    height: auto;
     width: 600px
 
 }
 /* Contact Form */
 form{
-    margin-top: 20px;
     width: 70%;
 }
 label{
     font-weight:bold;
     color: #2b5876;
-
 }
 
 input[type="text"],
@@ -84,10 +73,6 @@ input[type="email"],
 input[type="tel"]{
      width: 70%; 
     }
-
-textarea{
-    width: 70%
-}
 textarea{
     width: 90%;
 }
@@ -100,7 +85,5 @@ input[type="reset"] {
 
 footer{
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
