@@ -16,14 +16,15 @@ White           : #FFFFFF*/
 }
 /*Header*/
 header {
-    padding: 15px;
+    padding: 25px;
 }
 header h1{
     font-size: 1.8em;
+    margin-bottom: 15px;
 }
 /*Navigation*/
 nav a {
-    display:block;
+    display: block;
     padding: 15px;
 }
 
