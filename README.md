@@ -85,5 +85,18 @@ The following CSS files are used:
   - W3C Markup Validation Service for HTML Validation
   - W3C CSS Validation Service for CSS Validation
   - W3C link Checker for checking website links
+  - Wave Web Accessibility Evaluation Tool for accessibility testing
+
+  Any Errors identified during testing were corrected.
+
+  ## Version Control
+  Git and GitHub were used for version control during the development of the website
+  Changes were committed at different stages of development to show the progress of the project.
+  The repository is public and the completed website is deployed using GitHub Pages
+
+  ## Author
+  Ramdev Vimal
+  Networking and IT security
+  Ontario Tech University
   
   
